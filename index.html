@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joji">
+
+    <title>A Day With the Lord Almighty</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .no-select {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#devotions">Devotions</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#graphics">Graphics</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to starting the day with the Lord Almighty</h1>
+            <p>Embrace each new day with spiritual inspiration and devotions</p>
+        </section>
+        <section id="devotions">
+            <h2>Featured Devotions</h2>
+            <div class="devotions">
+                <iframe src="https://www.youtube.com/embed/FEAVWy1ILWo?si=pR1VH4nIJASc2S0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/dOqn9Bo6eXQ?si=SnYjDs-s2GvDVKwJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/yAf2Ya9Y8h8?si=b7rCsLGFAh2x41IK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/YQkxO9GbJsQ?si=z4kjj28KhGOT09hn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="music">
+            <h2>Music</h2>
+            <audio controls loop muted>
+                <source src="audio songs/bless the lord.mp3" type="audio/mp3">
+            </audio>
+            <audio controls loop muted>
+                <source src="audio songs/elijah.mp3" type="audio/mp3">
+            </audio>
+            <audio controls loop muted>
+                <source src="audio songs/in christ alone.mp3" type="audio/mp3">
+            </audio>
+            <audio controls loop muted>
+                <source src="audio songs/lord i lift your name.mp3" type="audio/mp3">
+            </audio>
+            <audio controls loop muted>
+                <source src="audio songs/my jesus .mp3" type="audio/mp3">
+            </audio>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                <img class="slides" src="images/image 1.jpg" alt="Luke 6:38">
+                <img class="slides" src="images/image 2.jpg" alt="Micah 6:8">
+                <img class="slides" src="images/img 3.jpg" alt="Matthew 7:24">
+                <img class="slides" src="images/img 4.jpg" alt="Proverbs 23:24">
+                <img class="slides" src="images/img 5.jpg" alt="Matthew 6:19">
+                <img class="slides" src="images/img 6.jpg" alt="John 8:32">
+                <img class="slides" src="images/img 7.jpg" alt="2 Corinthians 4:18">
+                <img class="slides" src="images/img 8.jpg" alt="Isaiah 26:3">
+                <img class="slides" src="images/img 9.jpg" alt="Psalms 23:4">
+                <img class="slides" src="images/img 10.jpg" alt="2 Corinthians 3:17">
+            </div>
+        </section>
+        <section id="graphics">
+            <h2>Interactive Graphics</h2>
+            <canvas id="myCanvas" width="600" height="400" style="border: 1px solid#000000;"></canvas>
+        </section>
+        <section id="search">
+            <h2>Search</h2>
+            <input type="text" id="search-input" placeholder="Search...">
+            <ul id="search-results"></ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form" novalidate>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+                <p id="form-feedback" style="color: red;"></p>
+            </form>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our website dedicated to daily devotions and spiritual growth. Our mission is to provide resources and encouragement for your spiritual journey. Join us as we explore faith through devotions, music, and community.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at: <a href="mailto:joetest@example.com">joetest@example.com</a></p>
+        <p>Follow us on:
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </p>
+        <p>&copy;2024 A Day With the Lord Almighty. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
